@@ -1,0 +1,10 @@
+force_keyboard_focus = true
+click_to_close = true
+theme = "Orange"
+
+[shell]
+anchor_right = false
+anchor_bottom = true
+anchor_left = false
+anchor_top = false
+layer = "overlay"

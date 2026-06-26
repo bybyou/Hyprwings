@@ -1,8 +1,0 @@
-require("hypr.animations")
-require("hypr.autostart")
-require("hypr.keybinds")
-require("hypr.monitor")
-require("hypr.config")
-require("hypr.local")
-require("hypr.execs")
-require("hypr.envs")

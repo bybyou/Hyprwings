@@ -1,3 +1,12 @@
+-- Variables
+local browser     = "google-chrome-stable"
+local home        = os.getenv("HOME")
+local music       = "deezer-desktop"
+local menu        = "walker"
+local mainMod     = "SUPER"
+local terminal    = "kitty"
+local fileManager = "nemo"
+
 -- Fenêtres
 hl.bind(mainMod .. " + mouse:272", hl.dsp.window.drag(),   { mouse = true })
 hl.bind(mainMod .. " + mouse:273", hl.dsp.window.resize(), { mouse = true })
