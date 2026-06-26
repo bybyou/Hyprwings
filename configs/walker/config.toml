@@ -1,6 +1,6 @@
 force_keyboard_focus = true
 click_to_close = true
-theme = "current"
+theme = "Orange"
 
 [shell]
 anchor_right = false
