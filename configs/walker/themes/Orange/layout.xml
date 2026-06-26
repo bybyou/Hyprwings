@@ -17,23 +17,20 @@
         <property name="halign">center</property>
         <property name="height-request">570</property>
 
-        <!-- Two-column main layout -->
         <child>
           <object class="GtkBox" id="MainColumns">
             <property name="orientation">horizontal</property>
             <property name="spacing">25</property>
 
-            <!-- Left column: avatar + search + mode buttons -->
             <child>
               <object class="GtkOverlay" id="LeftColumnOverlay">
                 <style>
                   <class name="left-column-overlay"></class>
                 </style>
-                <property name="hexpand">true</property>
+                <property name="hexpand">false</property>
                 <property name="vexpand">true</property>
                 <property name="width-request">300</property>
 
-                <!-- Background with custom image -->
                 <child>
                   <object class="GtkBox" id="LeftBackground">
                     <style>
@@ -42,15 +39,15 @@
                   </object>
                 </child>
 
-                <!-- Foreground content -->
                 <child type="overlay">
                   <object class="GtkBox" id="LeftColumn">
                     <style>
                       <class name="left-column"></class>
                     </style>
                     <property name="orientation">vertical</property>
-                    <property name="width-request">250</property>
-                    <!-- Search bar -->
+                    <property name="hexpand">false</property>
+                    <property name="width-request">300</property>
+
                     <child>
                       <object class="GtkBox" id="SearchContainer">
                         <style>
@@ -80,26 +77,25 @@
                       </object>
                     </child>
 
-                    <!-- Spacer area to reveal image background -->
                     <child>
                       <object class="GtkBox" id="ImageSpacer">
                         <style>
                           <class name="image-spacer"></class>
                         </style>
-                        <property name="hexpand">true</property>
+                        <property name="hexpand">false</property>
                         <property name="vexpand">true</property>
                       </object>
                     </child>
 
-                    <!-- Mode buttons (APPS / RUN / FILES / WINDOW) -->
                     <child>
                       <object class="GtkBox" id="ModeButtons">
                         <style>
                           <class name="mode-buttons"></class>
                         </style>
                         <property name="orientation">horizontal</property>
-                        <property name="spacing">10</property>
-                        <property name="halign">center</property>
+                        <property name="spacing">0</property>
+                        <property name="halign">fill</property>
+                        <property name="hexpand">false</property>
 
                         <child>
                           <object class="GtkButton" id="ModeApps">
@@ -108,30 +104,37 @@
                               <class name="mode-apps"></class>
                             </style>
                             <property name="label">APPS</property>
+                            <property name="hexpand">true</property>
                           </object>
                         </child>
                         <child>
                           <object class="GtkButton" id="ModeRun">
                             <style>
                               <class name="mode-button"></class>
+                              <class name="mode-hidden"></class>
                             </style>
                             <property name="label">RUN</property>
+                            <property name="visible">false</property>
                           </object>
                         </child>
                         <child>
                           <object class="GtkButton" id="ModeFiles">
                             <style>
                               <class name="mode-button"></class>
+                              <class name="mode-hidden"></class>
                             </style>
                             <property name="label">FILES</property>
+                            <property name="visible">false</property>
                           </object>
                         </child>
                         <child>
                           <object class="GtkButton" id="ModeWindow">
                             <style>
                               <class name="mode-button"></class>
+                              <class name="mode-hidden"></class>
                             </style>
                             <property name="label">WINDOW</property>
+                            <property name="visible">false</property>
                           </object>
                         </child>
                       </object>
@@ -140,6 +143,7 @@
                 </child>
               </object>
             </child>
+
             <child>
               <object class="GtkBox" id="ContentContainer">
                 <property name="orientation">vertical</property>
@@ -147,7 +151,6 @@
                 <style>
                   <class name="content-container"></class>
                 </style>
-                <!-- Right column: results list + keybinds + messages -->
                 <child>
                   <object class="GtkBox" id="RishtColumn">
                     <style>
@@ -155,7 +158,6 @@
                     </style>
                     <property name="orientation">horizontal</property>
                     <property name="spacing">10</property>
-                    <!-- Scrollable app list -->
                     <child>
                       <object class="GtkLabel" id="ElephantHint">
                         <style>
@@ -168,7 +170,6 @@
                         <property name="valign">0.5</property>
                       </object>
                     </child>
-                    <!-- Status messages -->
                     <child>
                       <object class="GtkLabel" id="Placeholder">
                         <style>
@@ -220,7 +221,7 @@
                       <class name="keybinds"></class>
                     </style>
                     <property name="hexpand">true</property>
-                    <property name="margin-top">10</property> 
+                    <property name="margin-top">10</property>
                     <child>
                       <object class="GtkBox" id="GlobalKeybinds">
                         <style>

@@ -19,7 +19,7 @@ hl.animation({ leaf = "fade", enabled = true, speed = 6, bezier = "standard" })
 
 hl.animation({
     bezier  = "specialWorkSwitch",
-    style   = "slidefadevert 15%"
+    style   = "slidefadevert 15%",
     leaf    = "specialWorkspace",
     enabled = true,
     speed   = 4,

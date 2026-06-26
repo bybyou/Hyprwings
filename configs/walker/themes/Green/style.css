@@ -4,7 +4,6 @@
 @define-color subtle_fg_color   #7a9e6e;
 @define-color error_bg_color    #bb616b;
 @define-color error_fg_color    #101014;
-
 * {
   all: unset;
 }
@@ -25,6 +24,7 @@ scrollbar {
   background: url("avatar.png");
   background-position: center;
   background-size: contain;
+  transform: translateY(90px);
   background-repeat: no-repeat;
   margin-left: 15px;
 }
@@ -63,7 +63,6 @@ scrollbar {
 }
 
 .mode-button {
-  min-width: 20px;
   padding: 6px 12px;
   border-radius: 14px;
   background: rgba(8, 18, 6, 0.90);
@@ -82,7 +81,6 @@ scrollbar {
 .mode-button:hover {
   background: rgba(12, 28, 8, 0.96);
   color: @theme_fg_color;
-  cursor: pointer;
 }
 
 .mode-apps {
@@ -95,8 +93,21 @@ scrollbar {
   color: #0a1a08;
 }
 
+.mode-hidden {
+  min-width: 0;
+  min-height: 0;
+  opacity: 0;
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+}
+
 .content-container {
-  background: rgba(6, 15, 4, 0.88);
+  background: linear-gradient(
+    180deg,
+    rgba(6, 15, 4, 0.20),
+    rgba(6, 15, 4, 0.40)
+  );
   border-radius: 22px;
   padding: 18px 18px 16px 18px;
 }
@@ -108,7 +119,6 @@ scrollbar {
 .item-box {
   border-radius: 14px;
   padding: 10px 14px;
-  transition: background 90ms ease-out, transform 90ms ease-out;
 }
 
 child:selected .item-box {
@@ -117,7 +127,6 @@ child:selected .item-box {
     rgba(61, 92, 53, 0.45),
     rgba(30, 55, 22, 0.45)
   );
-  transform: translateY(-1px);
 }
 
 .item-subtext {
@@ -169,4 +178,18 @@ child:selected .item-box {
 
 .preview-content.archlinuxpkgs {
   font-family: monospace;
+}
+.mode-hidden {
+  min-width: 0;
+  min-height: 0;
+  opacity: 0;
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+  border: 0;
+}
+
+.mode-buttons {
+  margin: 15px;
+  spacing: 0;
 }

@@ -16,6 +16,7 @@ hl.config({
 -- Decorations
     general = {
         border_size = 0,
+    },
     decoration = {
         rounding         = 25,
         active_opacity   = 0.95,
