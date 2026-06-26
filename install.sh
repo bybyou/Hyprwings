@@ -4,4 +4,8 @@ sudo pacman -S kitty nemo adw-gtk-theme ttf-jetbrains-mono-nerd make cmake base-
 git clone https://aur.archlinux.org/yay-git.git
 cd yay-git/
 makepkg -si
-yay -S brave walker elephant elephant-desktopapplications elephant-calc elephant-websearch elephant-providerlist elephant-runner
+cd
+yay -S brave awww walker elephant elephant-desktopapplications elephant-calc elephant-websearch elephant-providerlist elephant-runner
+awww-daemon &
+sleep 1
+awww img ~/.config/walker/themes/orange/orange.png

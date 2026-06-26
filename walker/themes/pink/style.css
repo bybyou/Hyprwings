@@ -1,7 +1,7 @@
-@define-color accent_bg_color   #1a3a6b;
-@define-color accent_bg_color2  #2d6abf;
-@define-color theme_fg_color    #d0e8ff;
-@define-color subtle_fg_color   #6a9fd8;
+@define-color accent_bg_color   #6b1a3a;
+@define-color accent_bg_color2  #bf2d6a;
+@define-color theme_fg_color    #ffd0e8;
+@define-color subtle_fg_color   #d86a9f;
 @define-color error_bg_color    #bb616b;
 @define-color error_fg_color    #101014;
 
@@ -25,7 +25,6 @@ scrollbar {
   background: url("avatar.png");
   background-position: center;
   background-size: contain;
-  transform: translateY(90px);
   background-repeat: no-repeat;
   margin-left: 15px;
 }
@@ -34,20 +33,20 @@ scrollbar {
   border-radius: 22px;
   background: linear-gradient(
     180deg,
-    rgba(4, 10, 30, 0.20),
-    rgba(4, 10, 30, 0.40)
+    rgba(30, 4, 15, 0.20),
+    rgba(30, 4, 15, 0.40)
   );
 }
 
 .search-container {
-  background: rgba(4, 10, 30, 0.85);
+  background: rgba(30, 4, 15, 0.85);
   border-radius: 999px;
   padding: 10px 16px;
   margin: 15px;
   color: @theme_fg_color;
   box-shadow:
     0 12px 30px rgba(0, 0, 0, 0.65),
-    0 0 0 1px rgba(45, 106, 191, 0.10);
+    0 0 0 1px rgba(191, 45, 106, 0.10);
 }
 
 .search-icon {
@@ -60,13 +59,13 @@ scrollbar {
 }
 
 .input selection {
-  background: rgba(45, 106, 191, 0.20);
+  background: rgba(191, 45, 106, 0.20);
 }
 
 .mode-button {
   padding: 6px 12px;
   border-radius: 14px;
-  background: rgba(4, 10, 30, 0.90);
+  background: rgba(30, 4, 15, 0.90);
   color: @subtle_fg_color;
   font-weight: 500;
   font-size: 12px;
@@ -81,18 +80,18 @@ scrollbar {
 }
 
 .mode-button:hover {
-  background: rgba(8, 20, 60, 0.96);
+  background: rgba(60, 8, 25, 0.96);
   color: @theme_fg_color;
 }
 
 .mode-apps {
   background: linear-gradient(135deg, @accent_bg_color, @accent_bg_color2);
-  color: #d0e8ff;
+  color: #ffd0e8;
 }
 
 .mode-apps:hover {
   background: linear-gradient(135deg, @accent_bg_color2, @accent_bg_color);
-  color: #d0e8ff;
+  color: #ffd0e8;
 }
 
 .mode-hidden {
@@ -110,8 +109,8 @@ scrollbar {
 .content-container {
   background: linear-gradient(
     180deg,
-    rgba(4, 10, 30, 0.20),
-    rgba(4, 10, 30, 0.40)
+    rgba(30, 4, 15, 0.20),
+    rgba(30, 4, 15, 0.40)
   );
   border-radius: 22px;
   padding: 18px 18px 16px 18px;
@@ -129,8 +128,8 @@ scrollbar {
 child:selected .item-box {
   background: linear-gradient(
     135deg,
-    rgba(26, 58, 107, 0.45),
-    rgba(10, 25, 60, 0.45)
+    rgba(107, 26, 58, 0.45),
+    rgba(60, 10, 25, 0.45)
   );
 }
 
@@ -156,7 +155,7 @@ child:selected .item-box {
 
 .keybinds {
   padding-top: 8px;
-  border-top: 1px solid rgba(45, 106, 191, 0.08);
+  border-top: 1px solid rgba(191, 45, 106, 0.08);
   font-size: 12px;
   color: @subtle_fg_color;
 }
@@ -172,7 +171,7 @@ child:selected .item-box {
 }
 
 .preview {
-  border: 1px solid rgba(45, 106, 191, 0.10);
+  border: 1px solid rgba(191, 45, 106, 0.10);
   border-radius: 12px;
   color: @theme_fg_color;
 }
