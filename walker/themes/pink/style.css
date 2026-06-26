@@ -25,6 +25,7 @@ scrollbar {
   background: url("avatar.png");
   background-position: center;
   background-size: contain;
+  transform: translateY(90px);
   background-repeat: no-repeat;
   margin-left: 15px;
 }
