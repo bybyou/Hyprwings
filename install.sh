@@ -6,6 +6,9 @@ cd yay-git/
 makepkg -si
 cd
 yay -S brave awww walker elephant elephant-desktopapplications elephant-calc elephant-websearch elephant-providerlist elephant-runner
+sudo cp -r ~/Hyprwings/cursor "/usr/share/icons/Polarnight Cursors"
+hyprctl setcursor "Polarnight Cursors" 24
+gsettings set org.gnome.desktop.interface cursor-theme "Polarnight Cursors"
 awww-daemon &
 sleep 1
 awww img ~/.config/walker/themes/orange/orange.png
