@@ -1,10 +1,4 @@
-# Hyprwings 🪽
-
-> Dotfiles moderne et français pour Hyprland sur Arch Linux
-
-<img width="1920" height="1080" alt="screenshot" src="https://github.com/user-attachments/assets/f033aec2-ba47-49e1-864f-fd150b028ba2" />
-
----
+# Hyprwings, Dotfiles moderne et français pour Hyprland sur Arch Linux
 
 ## ✨ Présentation
 Hyprwings est un dotfiles pensé pour être beau, rapide et facile à personnaliser. Il embarque un système de thèmes dynamiques qui change le wallpaper, le thème du launcher et le curseur en une seule touche.
@@ -17,15 +11,13 @@ Certains codes ont été réalisés sur mesure pour ce projet, d'autres ont ét�
 ## 🎨 Thèmes
 Hyprwings inclut 4 thèmes, chacun avec son propre wallpaper, son avatar dans le launcher et ses couleurs. Un simple `Super + T` permet de passer d'un thème à l'autre avec une animation de transition.
 
-<img width="1920" height="1080" alt="screenshot" src="https://github.com/user-attachments/assets/6f1134b5-9433-4ad1-bf77-e15628946dd1" />
+<img width="1920" height="1080" alt="screenshot" src="https://github.com/user-attachments/assets/8bc1c177-ad8f-4c11-a491-44663424a62c" />
 
-<img width="1920" height="1080" alt="screenshot" src="https://github.com/user-attachments/assets/956ac1c1-5f2e-4c2d-9542-29e770df5d27" />
+<img width="1920" height="1080" alt="screenshot" src="https://github.com/user-attachments/assets/e31da986-9808-4799-b647-9f055e274eb5" />
 
-<img width="1920" height="1080" alt="screenshot" src="https://github.com/user-attachments/assets/4b1fc9dd-73a3-4817-92c0-26a5ce7cc008" />
+<img width="1920" height="1080" alt="screenshot" src="https://github.com/user-attachments/assets/7bb3a800-8664-40d9-b1be-6d81f22451d4" />
 
-<img width="1920" height="1080" alt="screenshot" src="https://github.com/user-attachments/assets/6e6ea4c1-1a4a-493f-890d-d3db3a250884" />
-
----
+<img width="1920" height="1080" alt="screenshot" src="https://github.com/user-attachments/assets/6fb5e8c5-cda8-41dd-aacf-a74e1fa976d2" />
 
 ## 🚀 Installation
 
