@@ -1,8 +1,8 @@
-# Hyprwings, Dotfiles moderne et français pour Hyprland sur Arch Linux
+# Hyprwings, Dotfiles moderne et français pour Hyprland.
 
 ## ✨ Présentation
-Hyprwings est un dotfiles pensé pour être beau, rapide et facile à personnaliser. Il embarque un système de thèmes dynamiques qui change le wallpaper, le thème du launcher et le curseur en une seule touche.
-Certains codes ont été réalisés sur mesure pour ce projet, d'autres ont été pris et modifiés depuis des projets open source. Tous sont mentionnés dans CONTRIBUTORS.
+Hyprwings est un dotfiles pensé pour être beau, rapide et facile à personnaliser. Il embarque un système de thèmes dynamiques qui change le wallpaper et le thème du launcher en une seule touche.
+Certains codes ont été réalisés sur mesure pour ce projet, d'autres ont été pris et modifiés depuis des projets open source. Tous sont mentionnés dans CONTRIBUTORS.MD
 
 <!-- Décris ton setup plus en détail ici -->
 
@@ -44,12 +44,6 @@ bash install.sh
 | Super + C          | Fermer la fenêtre        |
 | Super + F          | Plein écran              |
 | Super + Shift + S  | Captrue d'ecran          | 
-
-## 📋 Crédits
-Certains codes ont été réalisés sur mesure pour ce projet, d'autres ont été pris et modifiés depuis des projets open source. Tous les projets utilisés sont mentionnés dans [CONTRIBUTORS.md](CONTRIBUTORS.md).
-
----
-
 ![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=flat&logo=arch-linux&logoColor=white)
 ![Hyprland](https://img.shields.io/badge/Hyprland-58E1FF?style=flat)
 ![License](https://img.shields.io/badge/License-Mixed-orange?style=flat)
