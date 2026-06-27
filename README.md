@@ -44,6 +44,7 @@ bash install.sh
 | Super + C          | Fermer la fenêtre        |
 | Super + F          | Plein écran              |
 | Super + Shift + S  | Captrue d'ecran          | 
+
 ![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=flat&logo=arch-linux&logoColor=white)
 ![Hyprland](https://img.shields.io/badge/Hyprland-58E1FF?style=flat)
 ![License](https://img.shields.io/badge/License-Mixed-orange?style=flat)
