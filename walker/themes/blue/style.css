@@ -21,13 +21,14 @@ scrollbar {
   opacity: 0;
 }
 
+
 .left-background {
   background: url("avatar.png");
   background-position: center;
   background-size: contain;
-  transform: translateY(90px);
+  margin-left: -3px;
+  transform: translateY(85px);
   background-repeat: no-repeat;
-  margin-left: 15px;
 }
 
 .left-column {

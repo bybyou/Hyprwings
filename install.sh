@@ -21,3 +21,4 @@ awww img ~/.config/walker/themes/orange/orange.png &>/dev/null &
 rm -rf ~/.config/walker; mv ~/Hyprwings/walker ~/.config/
 rm -rf ~/.config/kitty; mv ~/Hyprwings/kitty ~/.config/
 rm -rf ~/.config/hypr; mv ~/Hyprwings/hypr ~/.config/
+hyprctl reload

@@ -12,4 +12,4 @@ next_index=$(( (current_index + 1) % ${#themes[@]} ))
 next="${themes[$next_index]}"
 
 sed -i "s/theme = \"$current\"/theme = \"$next\"/" ~/.config/walker/config.toml
-awww img ~/.config/walker/themes/$next/$next.png --transition-type wipe --transition-angle 45 --transition-duration 1
+awww img ~/.config/walker/themes/$next/$next.png --transition-type outer --transition-duration 1.5 --transition-fps 60
