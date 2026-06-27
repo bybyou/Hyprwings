@@ -42,9 +42,6 @@ bash install.sh
 ---
 
 ## ⌨️ Raccourcis principaux
-
-<!-- Complète avec tous tes keybinds -->
-|-----------------------------------------------| 
 | Raccourci          | Action                   |
 |--------------------|--------------------------|
 | Super              | Launcher                 |
@@ -55,7 +52,6 @@ bash install.sh
 | Super + C          | Fermer la fenêtre        |
 | Super + F          | Plein écran              |
 | Super + Shift + S  | Captrue d'ecran          | 
-|-----------------------------------------------| 
 
 ## 📋 Crédits
 Certains codes ont été réalisés sur mesure pour ce projet, d'autres ont été pris et modifiés depuis des projets open source. Tous les projets utilisés sont mentionnés dans [CONTRIBUTORS.md](CONTRIBUTORS.md).
