@@ -2,7 +2,7 @@
 
 > Dotfiles moderne et français pour Hyprland sur Arch Linux
 
-<!-- Screenshot principal ici -->
+<img width="1920" height="1080" alt="screenshot" src="https://github.com/user-attachments/assets/f033aec2-ba47-49e1-864f-fd150b028ba2" />
 
 ---
 
@@ -17,13 +17,13 @@ Certains codes ont été réalisés sur mesure pour ce projet, d'autres ont ét�
 ## 🎨 Thèmes
 Hyprwings inclut 4 thèmes, chacun avec son propre wallpaper, son avatar dans le launcher et ses couleurs. Un simple `Super + T` permet de passer d'un thème à l'autre avec une animation de transition.
 
-<!-- Screenshot thème Orange -->
+<img width="1920" height="1080" alt="screenshot" src="https://github.com/user-attachments/assets/6f1134b5-9433-4ad1-bf77-e15628946dd1" />
 
-<!-- Screenshot thème Green -->
+<img width="1920" height="1080" alt="screenshot" src="https://github.com/user-attachments/assets/956ac1c1-5f2e-4c2d-9542-29e770df5d27" />
 
-<!-- Screenshot thème Blue -->
+<img width="1920" height="1080" alt="screenshot" src="https://github.com/user-attachments/assets/4b1fc9dd-73a3-4817-92c0-26a5ce7cc008" />
 
-<!-- Screenshot thème Pink -->
+<img width="1920" height="1080" alt="screenshot" src="https://github.com/user-attachments/assets/6e6ea4c1-1a4a-493f-890d-d3db3a250884" />
 
 ---
 
