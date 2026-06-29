@@ -1,6 +1,3 @@
-echo 'alias clr="clear; echo -en \"\e[3J\""' >> ~/.bashrc
-echo 'alias clear="clear; echo -en \"\e[3J\""' >> ~/.bashrc
-
 sudo pacman -S kitty nautilus adw-gtk-theme ttf-jetbrains-mono-nerd make cmake base-devel
 
 git clone https://aur.archlinux.org/yay-git.git
@@ -18,6 +15,7 @@ rm -rf ~/.config/walker; mv ~/Hyprwings/walker ~/.config/
 rm -rf ~/.config/kitty; mv ~/Hyprwings/kitty ~/.config/
 rm -rf ~/.config/hypr; mv ~/Hyprwings/hypr ~/.config/
 rm -rf ~/.config/waybar; mv ~/Hyprwings/waybar ~/.config/
+rm -f ~/.bashrc; mv ~/Hyprwings/.bashrc ~/.bashrc
 
 awww-daemon &>/dev/null &
 sleep 0.5
