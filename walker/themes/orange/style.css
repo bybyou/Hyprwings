@@ -195,3 +195,14 @@ child:selected .item-box {
   margin: 15px;
   spacing: 0;
 }
+.keybinds,
+.global-keybinds,
+.item-keybinds {
+  opacity: 0;
+  min-height: 0;
+  max-height: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 0;
+}

@@ -220,8 +220,8 @@
                     <style>
                       <class name="keybinds"></class>
                     </style>
-                    <property name="hexpand">true</property>
-                    <property name="margin-top">10</property>
+                    <property name="hexpand">false</property>
+                    <property name="margin-top">0</property>
                     <child>
                       <object class="GtkBox" id="GlobalKeybinds">
                         <style>

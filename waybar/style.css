@@ -1,0 +1,82 @@
+@import "colors/gruvbox-material.css";
+
+* {
+    all: unset;
+    font-family: "JetBrainsMono Nerd Font", monospace;
+    font-size: 16px;
+}
+
+window#waybar {
+    background-color: rgba(0, 0, 0, 0.30);
+    color: #a0a8b8;
+    border-radius: 0 0 14px 14px;
+    padding: 2px 0;
+}
+
+#workspaces {
+    padding: 2px 6px;
+    margin: 8px 0;
+    border-radius: 99px;
+    background: rgba(255, 255, 255, 0.03);
+}
+
+#workspaces button {
+    background: rgba(255, 255, 255, 0.04);
+    color: rgba(160, 168, 184, 0.35);
+    padding: 2px 8px;
+    border-radius: 99px;
+    margin: 0 2px;
+    min-width: 18px;
+    font-size: 11px;
+    transition: all 200ms ease;
+}
+
+#workspaces button.active {
+    background: rgba(160, 168, 184, 0.18);
+    color: #c0c8d8;
+    min-width: 28px;
+    font-weight: 700;
+}
+
+#workspaces button:hover {
+    background: rgba(255, 255, 255, 0.08);
+    color: #c0c8d8;
+}
+
+#clock,
+#clock.right {
+    margin: 0 12px;
+    font-weight: 800;
+    font-size: 1.15rem;
+    color: #a0a8b8;
+}
+
+.modules-left {
+    margin-left: 14px;
+}
+
+.modules-right {
+    margin-right: 14px;
+}
+
+#cava {
+    margin: 0 10px;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    color: #6a7a8a;
+}
+
+#pulseaudio {
+    margin: 0 6px;
+    color: #7a8a9a;
+}
+
+#cpu {
+    margin: 0 6px;
+    color: #8a9aaa;
+}
+
+#custom-gpu {
+    margin: 0 6px;
+    color: #8a9aaa;
+}
